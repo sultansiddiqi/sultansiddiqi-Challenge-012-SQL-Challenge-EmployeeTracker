@@ -1,5 +1,5 @@
 # Challenge-012 - MySQL Challenge: Employee Tracker
-
+![Screenshot of Application](Assets/Images/startCommand.png)
 ## Description
 
 Create an interface that allows a user to track their employees. The app will contain roles, departments, and salaries while tying them together. The app will also allow the ability to add in additional fields for the mentioned categories.    
@@ -30,7 +30,6 @@ To start the app type in npm start in the CLI or node crud.js
 
 When the program runs you'll have many different options to choose from
 
-![Screenshot of Application](Assets/Images/startCommand.png)
 ![Screenshot of Demo Video](Assets/Images/Demo-VideoScreen.png)
 
 
