@@ -1,5 +1,5 @@
 # Challenge-012 - MySQL Challenge: Employee Tracker
-![Screenshot of Application](Assets/Images/startCommand.png)
+![Screenshot of Application](Assets/Images/Screen.png)
 ## Description
 
 Create an interface that allows a user to track their employees. The app will contain roles, departments, and salaries while tying them together. The app will also allow the ability to add in additional fields for the mentioned categories.    
