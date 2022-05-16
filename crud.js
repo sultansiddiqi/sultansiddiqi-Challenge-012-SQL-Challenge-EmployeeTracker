@@ -6,7 +6,11 @@ const cTable = require('console.table');
 
 const connection = mysql.createConnection({
 	host: "localhost",
+
+	// Your port; if not 3306
 	port: 3306,
+
+	// YOUR MYSQL USERNAME
 	user: "root",
 
 	//ADD YOUR MYSQL ROOT PASSWORD HERE!!!!
@@ -58,6 +62,8 @@ function init() {
 		});
 };
 
+
+//employee search function to show all employees
 function employeeSearch() {
 	connection.query(
 		`SELECT 
@@ -76,6 +82,7 @@ function employeeSearch() {
 	);
 };
 
+//can display the salaries of created employees according to their roles
 function employeeSalaries() {
 	connection.query(
 		`SELECT 
@@ -91,7 +98,7 @@ function employeeSalaries() {
 		}
 	);
 };
-
+// departments will be important to segregate data
 function showDept() {
 	connection.query(
 		`SELECT * FROM department ORDER BY id`,
@@ -102,7 +109,7 @@ function showDept() {
 		}
 	);
 };
-
+// table form to show data
 function showRoles() {
 	connection.query(
 		`SELECT * FROM role ORDER BY id`,
@@ -199,7 +206,7 @@ function addOption() {
 		}
 	})
 };
-
+// add department function
 function addDepartment() {
 	inquirer
 	.prompt([
