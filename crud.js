@@ -320,8 +320,8 @@ function addEmployee() {
 connection.connect((err) => {
 	if (err) throw err;
 	console.log('----------------------------------------------------------------------------------');
-	console.log(figlet.textSync('Employee Tracker', {
-		//cosmike font looks cool
+	console.log(figlet.textSync('Challenge 12 Employee Tracker by Sultan Siddiqi', {
+		//fun font style to add some fun!
 		font: 'Star Wars',
 		horizontalLayout: 'default',
 		verticalLayout: 'default',
